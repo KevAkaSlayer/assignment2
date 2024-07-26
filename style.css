@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+p{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+h3{
+    font-family: inter;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+header{
+    max-width: 100%;
+    max-height: 715px;
+    background: linear-gradient(180deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    padding: 2.5rem 0;
+}
+
+.btn-primary{
+    font-family: inter;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: rgb(230, 83, 60);
+    padding: 1rem 2rem;
+    border-radius: 2.5rem;
+    border: none;
+}
+
+
+/* nav section */
+.navContainer{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleTop{
+    font-family: inter;
+    font-weight: 800;
+    font-size: 2.1rem;
+    color:rgb(230, 83, 60);
+}
+
+.navLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2.1rem;
+    padding: 5px 20px 5px 8px;
+}
+
+.navLink p{
+    font-size: 1.1rem;
+    color: #ffffff;
+    opacity: 1;
+}
+
+.btn{
+    font-family: inter;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: rgb(230, 83, 60);
+    padding: 8px 20px;
+    border-radius: 2.5rem;
+    border: none;
+}
+
+/* banner section */
+
+.banner{
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    gap: 10rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannerContent{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    margin-bottom: 2rem;
+    width: 50%;
+}
+/* .bannerContent p{
+    width: 32.5rem;
+} */
+
+.bannerHead{
+    font-family: inter;
+    font-weight: 900;
+    font-size: 4.8rem;
+    color: #ffffff;
+}
+.stylish{
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-size: 4.8rem;
+    color: #ffffff;
+}
+.bannerBtn{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-second{
+    font-family: inter;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: black;
+    padding: 16px 40px;
+    border-radius: 2.5rem;
+    border: 1px solid #ffffff;
+}
+
+.bannerImg{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.card1{
+    position:absolute;
+    top: 120px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.2rem;
+    padding: 10px;
+    width: 193px;
+    height: 98px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.card2{
+    position: absolute;
+    bottom: 60px;
+    left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 10px;
+    width: 193px;
+    height: 98px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+
+}
+
+.card2Inside{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+
+
+/* habit section */
+
+.habit{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.habit h3{
+    font-family: inter;
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.habitContent{
+    width: 75%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.habitContent p{
+    width: 70%;
+}
+.habitCardContainer{
+    width: 75%;
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+.habitCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 231px;
+    height: 274px;
+    text-align: center;
+}
+
+.habitCard h4{
+    font-family: inter;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.habitCard img{
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+    border: 5px solid rgb(25, 25, 25);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query */
+
+@media screen and (max-width: 576px) {
+    .navContainer{
+        width: 90%;
+    }
+    .banner{
+        width: 100%;
+        height: 1024px;
+        margin:auto;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .bannerContent{
+        width: 90%;
+
+    }
+    .bannerImg{
+        width: 100%;
+    }
+    .bannerHead{
+        font-size: 3rem;
+    }
+    .btn-primary{
+        font-size: 1.1rem;
+        padding: 0.5rem 1rem;
+    }
+    .btn-second{
+        font-size: 1.1rem;
+        padding: 0.5rem 1rem;
+    }
+    .card1{
+        top: 100px;
+        right: 40px;
+        width: 150px;
+        height: 78px;
+    }
+    .card2{
+        bottom: 50px;
+        left: 20px;
+        width: 150px;
+        height: 78px;
+    }
+    .habit{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .habitContent{
+        width: 90%;
+    }
+    .habitCardContainer{
+        grid-template-columns: repeat(1, 1fr);  
+    }
+
+
+}
+
+
