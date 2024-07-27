@@ -26,7 +26,7 @@ h3{
 
 .header{
     max-width: 100%;
-    max-height: 700px;
+    max-height: 701px;
     background: linear-gradient(180deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.1) 100%);
     padding: 2.5rem 0;
 }
@@ -102,9 +102,8 @@ h3{
 .bannerContent{
     display: flex;
     flex-direction: column;
-    gap:2rem;
-    margin-bottom: 2rem;
-    width: 50%;
+    gap:1.5rem;
+    width: 40%;
 }
 /* .bannerContent p{
     width: 32.5rem;
@@ -113,8 +112,11 @@ h3{
 .bannerHead{
     font-family: inter;
     font-weight: 900;
-    font-size: 4.8rem;
+    font-size: 3.5rem;
     color: #ffffff;
+}
+.divHead{
+    width: 100%;
 }
 .stylish{
     font-family: "Parisienne", cursive;
@@ -125,6 +127,7 @@ h3{
 .bannerBtn{
     display: flex;
     gap: 1rem;
+    width: 100%;
 }
 
 .btn-second{
@@ -133,7 +136,7 @@ h3{
     font-weight: 600;
     color: #ffffff;
     background-color: black;
-    padding: 16px 40px;
+    padding: 1rem 2rem;
     border-radius: 2.5rem;
     border: 1px solid #ffffff;
 }
