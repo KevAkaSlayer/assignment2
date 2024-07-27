@@ -282,10 +282,11 @@ h3{
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    width: 60%;
-    padding: 4rem;
+    width: 50%;
+    padding: 3rem;
     justify-content: left;
     align-items: left;
+    height: 100%;
 }
 
 .runContent h3{
@@ -297,15 +298,13 @@ h3{
 }
 
 .runContent p{
-    width: 50%;
+    width: 70%;
 }
 .runImage{
     justify-content: center;
     align-items: center;
-    width: 40%;
-    /* width: 366px;
-    height: 312px; */
-    padding: 30px;
+    width: 50%;
+    padding: 20px 30px 20px 20px;
 }
 .runContent button{
     width: 224px;
@@ -672,7 +671,7 @@ table{
         width: 100%;
     }
     .runImage{
-        width: 90%;
+        width: 100%;
     }
 
     .bmi{
