@@ -51,7 +51,9 @@ h3{
     justify-content: space-between;
     align-items: center;
 }
-
+.navIcon{
+    display: none;
+}
 .titleTop{
     font-family: inter;
     font-weight: 900;
@@ -584,6 +586,9 @@ table{
         width: 90%;
         margin-bottom: 50px;
     }
+    .navIcon{
+        display: block;
+    }
 
     .header{
         /* background-size: cover; */
@@ -654,7 +659,14 @@ table{
         width: 90%;
     }
     .runContent{
-        width: 90%;
+        width: 100%;
+    }
+    .runContent h3{
+        font-size: 2rem;
+        width: 100%;
+    }
+    .runContent p{
+        width: 100%;
     }
     .runContent button{
         width: 100%;
