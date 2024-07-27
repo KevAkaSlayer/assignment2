@@ -276,9 +276,9 @@ h3{
 .runContent{
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
-    width: 50%;
-    padding: 2rem;
+    gap: 2rem;
+    width: 60%;
+    padding: 4rem;
     justify-content: left;
     align-items: left;
 }
@@ -286,18 +286,21 @@ h3{
 .runContent h3{
     font-family: inter;
     font-weight: 900;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #ffffff;
 
 }
 
+.runContent p{
+    width: 50%;
+}
 .runImage{
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 40%;
     /* width: 366px;
     height: 312px; */
-    padding: 20px;
+    padding: 30px;
 }
 .runContent button{
     width: 224px;
@@ -305,7 +308,7 @@ h3{
 
 .runImage img{
     width: 100%;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 
@@ -473,8 +476,8 @@ table{
     border-radius: 20px;
 }
 .teamCard{
-    width: 325px;
-    height: 272px;
+    width: 100%;
+    height: 100%;
     position: relative;
 }
 
