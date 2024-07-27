@@ -54,7 +54,7 @@ h3{
 
 .titleTop{
     font-family: inter;
-    font-weight: 800;
+    font-weight: 900;
     font-size: 2.1rem;
     color:rgb(230, 83, 60);
 }
@@ -415,7 +415,7 @@ table{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 70%;
+    width: 75%;
     
 }
 
@@ -435,17 +435,134 @@ table{
 }
 
 
+/* our team  */
 
 
+.ourTeam{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    text-align: center;
+    gap: 3.5rem;
+}
+
+.teamContent{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.teamContent h3{
+    font-family: inter;
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+.teamCardContainer{
+    width: 75%;
+    display: grid;
+    background-color: #222222;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    padding: 20px;
+    border-radius: 20px;
+}
+.teamCard{
+    width: 325px;
+    height: 272px;
+    position: relative;
+}
+
+.teamCard img{
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    filter: brightness(90%);
+}
+
+.teamCard h4{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    color: #ffffff;
+    font-family: inter;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.teamCard p{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    font-family: inter;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.footerClass{
+    width: 100%;
+    height: 490px;
+    margin-top: 5rem;
+    background-color: #222222;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footerContainer{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerDiv{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: left;
+    padding: 20px;
+}
 
 
+.titleBottom{
+    font-family: inter;
+    font-weight: 900;
+    font-size: 4.5rem;
+    color:rgb(230, 83, 60);
+}
 
+.footerDiv1{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 20px;
+}
 
+.footerDiv2{
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    text-align: center;
+}
 
-
-
-
-
+.footerDiv2 hr{
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
 
 
 
@@ -565,9 +682,6 @@ table{
         align-items: left;
     }
 
-    .chartContent{
-        /* border:1px solid red; */
-    }
     .formContent{
         width: 100%;
         justify-content: center;
@@ -580,6 +694,36 @@ table{
         width: 60%;
         padding: 15px 20px;
     }
+
+    .teamCardContainer{
+        width: 90%;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .teamCard{
+        width: 100%;
+        height: 272px;
+    }
+    .footerClass{
+        height: 1080px;
+    }
+    .footerContainer{
+        width: 90%;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: left;
+    }
+    .footerDiv{
+        width: 100%;
+        justify-content: left;
+        align-items: left;
+    }
+    .footerDiv1{
+        width: 100%;
+        justify-content: left;
+        align-items: left;
+    }
+
 }
 
 
